@@ -5,6 +5,13 @@
 img{
   max-height: 129px;
 }
+.contenido {
+
+}
+.bloq-busq {
+  display: flex;
+  flex-direction: column;
+}
 @media (max-width: 640px) {
   .row {
     display: flex;
@@ -18,8 +25,25 @@ img{
     width: 640px;
     text-align: center;
   }
+  .capa {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;  
+  }
+}
+.perfil {
+  max-height: 200px;
 }
 .capa {
   display: flex;
   flex-direction: row;
+}
+.col-izquierda {
+  border-right: 1px dashed gray;
+}
+.info {
+  text-align: left;
 }
